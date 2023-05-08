@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>form</title>
+        <h1>Registration form</h1>
+        <style>
+            title{
+                 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            h1{
+                font-style: italic;
+                color: black;
+            }
+            body{
+                background-color: rgb(67, 102, 53);
+            }
+            .center{
+                text-align:center;
+                
+            }  
+            form{
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <form class="center">
+            Enter your full name <br>
+           <input type="text" placeholder="enter your text"/><br>
+            Enter your email <br>
+            <input type="text"/><br>
+            Enter your password<br>
+            <input type="password"/><br>
+            Confirm your passwoed<br>
+            <input type="password"/><br>
+            <input type="date"/><br/>
+        
+            Enter your gender<br>
+            <input type="radio" name="option"/> Male <br>
+            <input type="radio" name="option"/> Female<br>
+            <input type="radio" name="option"/> Others<br>
+        
+            select your course 
+            <select name="dropdown">
+                <option name="select"hidden selected>_select_</option>
+                <option name="html">html</option>
+                <option name="java">java</option>
+                <option name="python">python</option>
+                <option name="c++">c++</option>
+                <option name="c">c</option>
+            </select>
+       
+            Enter your address:<br>
+            <textarea name="command"></textarea><br>
+            <input type="button" value="sign-up"/><br>
+            <input type="file"
+            name="fileupload"/>
+        </form>
+    </body>
+</html>
